@@ -3,7 +3,7 @@ import type { PayloadAction } from "@reduxjs/toolkit";
 import axios from "axios";
 import { WeatherDataObj, WeatherState } from "../../types/types";
 
-const apiKey = import.meta.env.VITE_API_KEY;
+const apiKey = "5835ce7cca6e008a5ce418d6f91eaefa";
 
 const initialState: WeatherState = {
   data: {},

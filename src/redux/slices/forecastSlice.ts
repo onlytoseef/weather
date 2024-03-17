@@ -4,7 +4,7 @@ import axios from "axios";
 
 import { ForecastState, ApiResponse } from "../../types/types";
 
-const apiKey = import.meta.env.VITE_API_KEY;
+const apiKey = "5835ce7cca6e008a5ce418d6f91eaefa";
 
 const initialState: ForecastState = {
   data: {},
