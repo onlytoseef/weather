@@ -1,0 +1,9 @@
+/* Backgound  Image */
+body {
+   background-image: url(../src/assets/logos/bg.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   font-family: Nunito;
+}
