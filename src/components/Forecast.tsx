@@ -171,7 +171,7 @@ export default function Forecast({ lat, lon }: ForecastProps) {
             <div className="icon w-[70px] h-[67px] cursor-pointer">
               <img src={weatherIconCondition(firstDayIcon)} alt="first day" />
             </div>
-            <div className="desc  text-white text-center text-[12px] hidden md:block sm:text-[16px]">
+            <div className="desc  text-white text-center lg:text-[14px] hidden md:block sm:text-[16px]">
               {firstDayDescription}
             </div>
 
@@ -195,7 +195,7 @@ export default function Forecast({ lat, lon }: ForecastProps) {
             <div className="icon w-[70px] h-[67px] cursor-pointer">
               <img src={weatherIconCondition(secondDayIcon)} alt="second day" />
             </div>
-            <div className="desc text-white text-center text-[12px] hidden md:block sm:text-[16px]">
+            <div className="desc text-white text-center lg:text-[14px] hidden md:block sm:text-[16px]">
               {secondDayDescription}
             </div>
 
@@ -220,7 +220,7 @@ export default function Forecast({ lat, lon }: ForecastProps) {
               <img src={weatherIconCondition(thirdDayIcon)} alt="third day" />
             </div>
 
-            <div className="desc text-white text-center text-[12px] hidden md:block sm:text-[16px]">
+            <div className="desc text-white text-center lg:text-[14px] hidden md:block sm:text-[16px]">
               {thirdDayDescription}
             </div>
 
@@ -238,13 +238,13 @@ export default function Forecast({ lat, lon }: ForecastProps) {
             </div>
           </div>
           <div className="day w-[20%] border border-transparent flex flex-col  items-center">
-            <p className="font-bold	text-[#BFBFD4] text-[11px] sm:text-sm text-center ">
+            <p className="font-bold	text-[#BFBFD4] text-[11px]  sm:text-sm text-center ">
               {nextDayFour}
             </p>
             <div className="icon w-[70px] h-[67px] cursor-pointer">
               <img src={weatherIconCondition(forthDayIcon)} alt="forth day" />
             </div>
-            <div className="desc text-white text-center text-[12px] hidden md:block sm:text-[16px]">
+            <div className="desc text-white text-center lg:text-[14px] hidden md:block sm:text-[16px]">
               {forthDayDescription}
             </div>
 
@@ -269,7 +269,7 @@ export default function Forecast({ lat, lon }: ForecastProps) {
               <img src={weatherIconCondition(fifthDayIcon)} alt="fifth day" />
             </div>
 
-            <div className="desc text-white text-center text-[12px] hidden md:block sm:text-[16px]">
+            <div className="desc text-white text-center lg:text-[14px] hidden md:block sm:text-[16px]">
               {fifthDayDescription}
             </div>
 
